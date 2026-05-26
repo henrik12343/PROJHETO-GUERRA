@@ -9,16 +9,19 @@
 </head>
 <body>
     <form class="formulario" action="">
-    <h1>CAMPOS <br>
-         DE <br>
+    <h1 class="texto">CAMPOS 
+         DE 
  BATALHA</h1>
+ <label>Escolha uma classe</label>
     <select class="warrior" name="" id="guerreiro">
-        <option value="">Espadashim</option>
+        <option value="">Espadachim</option>
         <option value="">Mago</option>
         <option value="">Arqueiro</option>
     </select>
-    
-<input type="text" class="armas" >
+    <label>Escolha sua arma</label>
+<input type="text" class="armas" placeholder="EX: Katana, Cajado, Arco">
+<button class="button" onclick="lutar()">LUTAR</button>
+<div id="log"></div>
 </form>
     
 </body>

@@ -7,11 +7,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 300px;
+    padding: 200px;
+    overflow: hidden;
 }
 .warrior{
     border-color: black;
-    width: 250px;
+    width: 300px;
     height: 80px;
     font-size: 30px;
     padding: 20px;
@@ -20,21 +21,67 @@ body{
 }
 .armas{
     border-color: black;
-    width: 200px;
+    width: 300px;
     height: 80px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 10px;
     border: 3px solid black;
 }
 .formulario{
-    height: 500px;
-    width: 400px;
+    height: 700px;
+    width: 500px;
     background-color: rgb(163, 46, 42);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     border-radius: 20px;
     border: 5px solid black;
 }
+.texto{
+    color: rgb(160, 4, 35);
+    font-size: 35px;
+    gap: 30px;
+    -webkit-text-stroke: 0.5px black;
+    
+}
+.button{
+    width: 300px;
+    height: 80px;
+    gap: 20px;
+    background-color: rgb(185, 185, 185);
+    color: rgb(131, 27, 27);
+    border-radius: 20px;
+    border: 5px solid black;
+    font-size: 20px;
+
+}
+button:hover {
+    background: #ff7f7f;
+    }
+    #log {
+        width:400px;
+    background: #000;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 120px; /*define uma altura mínima para um elemento.*/
+    border-left: 10px solid #961212; /*Diz ao navegador para aplicar a borda apenas no lado esquerdo.*/
+    
+    }
+    .critico {
+    color: #ff4444;
+    font-weight: bold; /*define a espessura da sua letra*/
+    }
+    .sucesso {
+    color: #44ff44;
+    }
+    .derrota {
+    color: #888;
+    font-style: italic;
+    }
+    label{
+        font-size: 35px;
+        color: #a11414;
+        -webkit-text-stroke: 0.5px black;
+    }
