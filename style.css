@@ -58,7 +58,8 @@ body{
 
 }
 button:hover {
-    background: #ff7f7f;
+    background: #ff0000;
+    color: black;
     }
     #log {
         width:400px;
@@ -84,4 +85,8 @@ button:hover {
         font-size: 35px;
         color: #a11414;
         -webkit-text-stroke: 0.5px black;
+    }
+    .para{
+        color: red;
+        font-size: 25px;
     }
